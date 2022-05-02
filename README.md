@@ -131,3 +131,91 @@ Pass by Value or Reference
 
 they don't actually do anything, they are more for documentation
 
+Variables
+- string is default data type for variables
+    - used for practically everything: strings, integers, floating point numbersm bools
+- dynamically typed: no variable declaration
+    - including arrays, which are called "sparse arrays"
+- weakly typed: uysage determines evaluation
+```
+set x - "Taylor"
+se y = "Carroll"
+write x _ y
+```
+gives you:
+TaylorCarroll
+`_` is a concat
+
+set x = 3
+set y = 4
+write x + y 
+gives 7
+write x _ y
+gives 34
+write x _ y - 1
+gives 33
+
+never had to declar var types
+
+set a = "123abc"
+set b = "def456"
+
+write a_b
+gives 123abcdef456
+
+write a + b
+gives 123
+
+write +a
+gives 123
+
+write +b
+gives 0 as there are no numeric charas at beginning of the string
+
+variales can be scalar or an array
+
+write #
+clear the terminal
+
+set a = "my array"
+set a(1) = 3
+set a(1,3,5) = 7
+set a(8) = "text"
+set a(5) = ""
+
+write a
+returns my array
+
+zwrite a
+returns:
+a="my array"
+a(1)=3
+a(1,3,5) = 7
+a(8) = "text"
+a(5) = ""
+
+write a(2)
+returns undefined because it hasn't been set yet
+
+variables can also be:
+- object references including JSON objects and arrays
+- list string
+    - creae with $list* functions
+- bit string
+    - create with $bit func
+
+
+pass array by reference
+- pass array by reference, using period before array variable
+```
+sect c=4, c(1) = 101, c(3,5) = 303, c(4) = "last"
+do obj.Test("first", .c)
+```
+- without period, only scalar value of variable is passed
+
+variable number of arguments
+(... syntax)
+
+variable names are case sensitive
+var names contain letters or numbers but first character must be a letter or %
+max length of var name is 31 characters, won't get an error trying to do this but won't successfully set that var either
