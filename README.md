@@ -106,7 +106,7 @@ MEthod arguments
 
 method argument not required
 -can call methods passing all, some, or no arguments
-`do ##class(package.class) .method(x, , y)
+`do ##class(package.class).method(x, , y)
 
 -method signature can either provide default for each argyment or use `$Data` function to check argument
 ```
