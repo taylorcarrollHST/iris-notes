@@ -1,0 +1,24 @@
+{
+    "quotes": [
+        { "id": 1, "quoteDate": "mm/dd/yyy", "case": "After cataract laser...", "patient": "Finelli, Michael", "dob": "mm/dd/yyyy", "primaryPayer": "", "surgicalCPT": "",  "anesthesiaCPT": "", "group": "000000", "amtDue": "1000", "provider": "", "creator": "Finelli" },
+        { "id": 2, "quoteDate": "mm/dd/yyy", "case": "TEST cataract laser...", "patient": "Cosgrove, Jimmy", "dob": "mm/dd/yyyy", "primaryPayer": "", "surgicalCPT": "",  "anesthesiaCPT": "", "group": "000000", "amtDue": "1000", "provider": "", "creator": "Finelli" },
+        { "id": 5, "quoteDate": "mm/dd/yyy", "case": "Before cataract laser...", "patient": "McDinaldo, Ronald", "dob": "mm/dd/yyyy", "primaryPayer": "", "surgicalCPT": "",  "anesthesiaCPT": "", "group": "000000", "amtDue": "1000", "provider": "", "creator": "Finelli" }     
+    ],
+    "users": [
+        { "id": "1234T", "token": "12345", "orgName": "Maple Valley Surgery Center", "orgUrl": "https://www.maplecreek.com/", "userName": "Jane Doe" }
+       ],
+    "locations": [
+        {
+          "id": 1,
+          "name": "Pet Cemetary",
+          "location": "500 puppy way",
+          "capacity": "60 pets"
+        },
+        {
+          "id": 2,
+          "name": "Sage's Herpetology Emporium",
+          "location": "611 derp way",
+          "capacity": "180 pets"
+        }
+      ]
+}

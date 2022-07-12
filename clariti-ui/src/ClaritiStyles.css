@@ -1,0 +1,132 @@
+.App {
+  text-align: center;
+}
+
+.topMenu {
+  display: flex;
+  background-image: linear-gradient(to right, #006782 , #44B6D6);
+  height: 60px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-item {
+  /* justify-content: space-between; */
+  display: flex;
+  color: #FFFFFF;
+  margin: .5em;
+}
+
+.navbar-item > a:visited, a:link {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.vertical-line{
+  border-right: 1px solid #FFFFFF;
+  height: 2rem;
+  margin-right: 1rem;
+}
+
+/* may combine these */
+#navBar-Wrapper-left{
+  display: flex;
+  align-items: center;
+}
+
+#navBar-Wrapper-right{
+  display: flex;
+  align-items: center;
+}
+
+.quotes-table{
+  display: flex;
+  align-items: center;
+}
+
+.table-container {
+  margin-top: 0.5em;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+#dateFilterMenu {
+  
+}
+
+.table-title {
+  font-size: 1.5rem;
+  padding-bottom: 1rem;
+}
+
+.table-body {
+  background-color: #FFFFFF;
+  border-radius: 5px;
+  padding: 1em;
+}
+
+.table-header {
+  display: flex;
+  background-color: #FFFFFF;
+  justify-content: space-between;
+}
+
+.table-header-left {
+  display: flex;
+  align-items: center;
+}
+
+.table-header-right {
+  display: flex;
+  align-items: center;
+}
+
+.table-header-left>*{
+  margin-left: .5em;
+  margin-right: .5em;
+}
+
+
+.table-header-right>*{
+  margin-left: .5em;
+  margin-right: .5em;
+}
+
+body {
+  background-color: #E5E5E5;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
